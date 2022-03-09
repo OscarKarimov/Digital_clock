@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'alarm clock';
+    src: url('./font_family/alarmclock.eot clock/');
+    src: url('./font_family/alarmclock.eot?#iefix') format('embedded-opentype'),
+        url('./font_family/alarmclock.woff') format('woff'),
+        url('./font_family/alarmclock.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'alarm clock';
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;    
+}
+.time{
+    font-size: 100px;
+    color: #00ff00;
+    text-shadow: 0px 0px 25px #fc5555;
+    border: 3px solid #00ff00;;
+    padding-left: 600px;
+    padding-right: 200px;
+}
